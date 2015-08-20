@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Oscar_Example', :exclusive => true do
+  pod "Oscar", :path => "../"
+end
+
+target 'Oscar_Tests', :exclusive => true do
+  pod "Oscar", :path => "../"
+
+  pod 'Kiwi'
+end

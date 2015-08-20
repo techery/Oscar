@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DC00B821B862F7C0037BA74 /* DTActorExecutorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B771B862F7C0037BA74 /* DTActorExecutorTest.m */; };
-		4DC00B831B862F7C0037BA74 /* DTActorOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B781B862F7C0037BA74 /* DTActorOperationTest.m */; };
-		4DC00B841B862F7C0037BA74 /* DTActorRefTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B791B862F7C0037BA74 /* DTActorRefTest.m */; };
-		4DC00B851B862F7C0037BA74 /* DTActorSystemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7A1B862F7C0037BA74 /* DTActorSystemTest.m */; };
-		4DC00B861B862F7C0037BA74 /* DTActorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7B1B862F7C0037BA74 /* DTActorTest.m */; };
-		4DC00B871B862F7C0037BA74 /* DTInstanceActorProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7C1B862F7C0037BA74 /* DTInstanceActorProviderTests.m */; };
-		4DC00B881B862F7C0037BA74 /* DTMessageDispatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7D1B862F7C0037BA74 /* DTMessageDispatcherTest.m */; };
-		4DC00B891B862F7C0037BA74 /* DTMessageHandlerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7E1B862F7C0037BA74 /* DTMessageHandlerTest.m */; };
-		4DC00B8A1B862F7C0037BA74 /* DTPullActorProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7F1B862F7C0037BA74 /* DTPullActorProviderTests.m */; };
-		4DC00B8B1B862F7C0037BA74 /* DTServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B801B862F7C0037BA74 /* DTServiceLocatorTests.m */; };
-		4DC00B8C1B862F7C0037BA74 /* DTSingletonActorProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B811B862F7C0037BA74 /* DTSingletonActorProviderTest.m */; };
-		4DC00B901B8630B80037BA74 /* DTPromiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B8F1B8630B80037BA74 /* DTPromiseMatcher.m */; };
-		4DC00B931B8630D90037BA74 /* ActorSystemMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B921B8630D90037BA74 /* ActorSystemMock.m */; };
+		4DC00B821B862F7C0037BA74 /* OSActorExecutorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */; };
+		4DC00B831B862F7C0037BA74 /* OSActorOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */; };
+		4DC00B841B862F7C0037BA74 /* OSActorRefTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */; };
+		4DC00B851B862F7C0037BA74 /* OSActorSystemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7A1B862F7C0037BA74 /* OSActorSystemTest.m */; };
+		4DC00B861B862F7C0037BA74 /* OSActorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7B1B862F7C0037BA74 /* OSActorTest.m */; };
+		4DC00B871B862F7C0037BA74 /* OSInstanceActorProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7C1B862F7C0037BA74 /* OSInstanceActorProviderTests.m */; };
+		4DC00B881B862F7C0037BA74 /* OSMessageDispatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7D1B862F7C0037BA74 /* OSMessageDispatcherTest.m */; };
+		4DC00B891B862F7C0037BA74 /* OSMessageHandlerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7E1B862F7C0037BA74 /* OSMessageHandlerTest.m */; };
+		4DC00B8A1B862F7C0037BA74 /* OSPullActorProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7F1B862F7C0037BA74 /* OSPullActorProviderTests.m */; };
+		4DC00B8B1B862F7C0037BA74 /* OSServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B801B862F7C0037BA74 /* OSServiceLocatorTests.m */; };
+		4DC00B8C1B862F7C0037BA74 /* OSSingletonActorProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B811B862F7C0037BA74 /* OSSingletonActorProviderTest.m */; };
+		4DC00B901B8630B80037BA74 /* OSPromiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B8F1B8630B80037BA74 /* OSPromiseMatcher.m */; };
+		4DC00B931B8630D90037BA74 /* OSActorSystemMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B921B8630D90037BA74 /* OSActorSystemMock.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -50,21 +50,21 @@
 /* Begin PBXFileReference section */
 		05A536E612C78458104F4F1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0A4004F208543A6D47FCCA3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4DC00B771B862F7C0037BA74 /* DTActorExecutorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTActorExecutorTest.m; sourceTree = "<group>"; };
-		4DC00B781B862F7C0037BA74 /* DTActorOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTActorOperationTest.m; sourceTree = "<group>"; };
-		4DC00B791B862F7C0037BA74 /* DTActorRefTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTActorRefTest.m; sourceTree = "<group>"; };
-		4DC00B7A1B862F7C0037BA74 /* DTActorSystemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTActorSystemTest.m; sourceTree = "<group>"; };
-		4DC00B7B1B862F7C0037BA74 /* DTActorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTActorTest.m; sourceTree = "<group>"; };
-		4DC00B7C1B862F7C0037BA74 /* DTInstanceActorProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTInstanceActorProviderTests.m; sourceTree = "<group>"; };
-		4DC00B7D1B862F7C0037BA74 /* DTMessageDispatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMessageDispatcherTest.m; sourceTree = "<group>"; };
-		4DC00B7E1B862F7C0037BA74 /* DTMessageHandlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMessageHandlerTest.m; sourceTree = "<group>"; };
-		4DC00B7F1B862F7C0037BA74 /* DTPullActorProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTPullActorProviderTests.m; sourceTree = "<group>"; };
-		4DC00B801B862F7C0037BA74 /* DTServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTServiceLocatorTests.m; sourceTree = "<group>"; };
-		4DC00B811B862F7C0037BA74 /* DTSingletonActorProviderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSingletonActorProviderTest.m; sourceTree = "<group>"; };
-		4DC00B8E1B8630B80037BA74 /* DTPromiseMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTPromiseMatcher.h; sourceTree = "<group>"; };
-		4DC00B8F1B8630B80037BA74 /* DTPromiseMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTPromiseMatcher.m; sourceTree = "<group>"; };
-		4DC00B911B8630D90037BA74 /* ActorSystemMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorSystemMock.h; sourceTree = "<group>"; };
-		4DC00B921B8630D90037BA74 /* ActorSystemMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActorSystemMock.m; sourceTree = "<group>"; };
+		4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorExecutorTest.m; sourceTree = "<group>"; };
+		4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorOperationTest.m; sourceTree = "<group>"; };
+		4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorRefTest.m; sourceTree = "<group>"; };
+		4DC00B7A1B862F7C0037BA74 /* OSActorSystemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorSystemTest.m; sourceTree = "<group>"; };
+		4DC00B7B1B862F7C0037BA74 /* OSActorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorTest.m; sourceTree = "<group>"; };
+		4DC00B7C1B862F7C0037BA74 /* OSInstanceActorProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSInstanceActorProviderTests.m; sourceTree = "<group>"; };
+		4DC00B7D1B862F7C0037BA74 /* OSMessageDispatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMessageDispatcherTest.m; sourceTree = "<group>"; };
+		4DC00B7E1B862F7C0037BA74 /* OSMessageHandlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMessageHandlerTest.m; sourceTree = "<group>"; };
+		4DC00B7F1B862F7C0037BA74 /* OSPullActorProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPullActorProviderTests.m; sourceTree = "<group>"; };
+		4DC00B801B862F7C0037BA74 /* OSServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSServiceLocatorTests.m; sourceTree = "<group>"; };
+		4DC00B811B862F7C0037BA74 /* OSSingletonActorProviderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSingletonActorProviderTest.m; sourceTree = "<group>"; };
+		4DC00B8E1B8630B80037BA74 /* OSPromiseMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPromiseMatcher.h; sourceTree = "<group>"; };
+		4DC00B8F1B8630B80037BA74 /* OSPromiseMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPromiseMatcher.m; sourceTree = "<group>"; };
+		4DC00B911B8630D90037BA74 /* OSActorSystemMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSActorSystemMock.h; sourceTree = "<group>"; };
+		4DC00B921B8630D90037BA74 /* OSActorSystemMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorSystemMock.m; sourceTree = "<group>"; };
 		594983EAFA3719654F28F606 /* Pods-Oscar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Tests/Pods-Oscar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		598F72575CEE2AFEF354EC45 /* libPods-Oscar_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Oscar_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* Oscar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oscar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +122,8 @@
 		4DC00B8D1B8630B80037BA74 /* Promise Matcher */ = {
 			isa = PBXGroup;
 			children = (
-				4DC00B8E1B8630B80037BA74 /* DTPromiseMatcher.h */,
-				4DC00B8F1B8630B80037BA74 /* DTPromiseMatcher.m */,
+				4DC00B8E1B8630B80037BA74 /* OSPromiseMatcher.h */,
+				4DC00B8F1B8630B80037BA74 /* OSPromiseMatcher.m */,
 			);
 			path = "Promise Matcher";
 			sourceTree = "<group>";
@@ -191,20 +191,20 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4DC00B911B8630D90037BA74 /* ActorSystemMock.h */,
-				4DC00B921B8630D90037BA74 /* ActorSystemMock.m */,
+				4DC00B911B8630D90037BA74 /* OSActorSystemMock.h */,
+				4DC00B921B8630D90037BA74 /* OSActorSystemMock.m */,
 				4DC00B8D1B8630B80037BA74 /* Promise Matcher */,
-				4DC00B771B862F7C0037BA74 /* DTActorExecutorTest.m */,
-				4DC00B781B862F7C0037BA74 /* DTActorOperationTest.m */,
-				4DC00B791B862F7C0037BA74 /* DTActorRefTest.m */,
-				4DC00B7A1B862F7C0037BA74 /* DTActorSystemTest.m */,
-				4DC00B7B1B862F7C0037BA74 /* DTActorTest.m */,
-				4DC00B7C1B862F7C0037BA74 /* DTInstanceActorProviderTests.m */,
-				4DC00B7D1B862F7C0037BA74 /* DTMessageDispatcherTest.m */,
-				4DC00B7E1B862F7C0037BA74 /* DTMessageHandlerTest.m */,
-				4DC00B7F1B862F7C0037BA74 /* DTPullActorProviderTests.m */,
-				4DC00B801B862F7C0037BA74 /* DTServiceLocatorTests.m */,
-				4DC00B811B862F7C0037BA74 /* DTSingletonActorProviderTest.m */,
+				4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */,
+				4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */,
+				4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */,
+				4DC00B7A1B862F7C0037BA74 /* OSActorSystemTest.m */,
+				4DC00B7B1B862F7C0037BA74 /* OSActorTest.m */,
+				4DC00B7C1B862F7C0037BA74 /* OSInstanceActorProviderTests.m */,
+				4DC00B7D1B862F7C0037BA74 /* OSMessageDispatcherTest.m */,
+				4DC00B7E1B862F7C0037BA74 /* OSMessageHandlerTest.m */,
+				4DC00B7F1B862F7C0037BA74 /* OSPullActorProviderTests.m */,
+				4DC00B801B862F7C0037BA74 /* OSServiceLocatorTests.m */,
+				4DC00B811B862F7C0037BA74 /* OSSingletonActorProviderTest.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -416,19 +416,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC00B881B862F7C0037BA74 /* DTMessageDispatcherTest.m in Sources */,
-				4DC00B831B862F7C0037BA74 /* DTActorOperationTest.m in Sources */,
-				4DC00B841B862F7C0037BA74 /* DTActorRefTest.m in Sources */,
-				4DC00B8A1B862F7C0037BA74 /* DTPullActorProviderTests.m in Sources */,
-				4DC00B901B8630B80037BA74 /* DTPromiseMatcher.m in Sources */,
-				4DC00B8C1B862F7C0037BA74 /* DTSingletonActorProviderTest.m in Sources */,
-				4DC00B8B1B862F7C0037BA74 /* DTServiceLocatorTests.m in Sources */,
-				4DC00B871B862F7C0037BA74 /* DTInstanceActorProviderTests.m in Sources */,
-				4DC00B821B862F7C0037BA74 /* DTActorExecutorTest.m in Sources */,
-				4DC00B861B862F7C0037BA74 /* DTActorTest.m in Sources */,
-				4DC00B931B8630D90037BA74 /* ActorSystemMock.m in Sources */,
-				4DC00B891B862F7C0037BA74 /* DTMessageHandlerTest.m in Sources */,
-				4DC00B851B862F7C0037BA74 /* DTActorSystemTest.m in Sources */,
+				4DC00B881B862F7C0037BA74 /* OSMessageDispatcherTest.m in Sources */,
+				4DC00B831B862F7C0037BA74 /* OSActorOperationTest.m in Sources */,
+				4DC00B841B862F7C0037BA74 /* OSActorRefTest.m in Sources */,
+				4DC00B8A1B862F7C0037BA74 /* OSPullActorProviderTests.m in Sources */,
+				4DC00B901B8630B80037BA74 /* OSPromiseMatcher.m in Sources */,
+				4DC00B8C1B862F7C0037BA74 /* OSSingletonActorProviderTest.m in Sources */,
+				4DC00B8B1B862F7C0037BA74 /* OSServiceLocatorTests.m in Sources */,
+				4DC00B871B862F7C0037BA74 /* OSInstanceActorProviderTests.m in Sources */,
+				4DC00B821B862F7C0037BA74 /* OSActorExecutorTest.m in Sources */,
+				4DC00B861B862F7C0037BA74 /* OSActorTest.m in Sources */,
+				4DC00B931B8630D90037BA74 /* OSActorSystemMock.m in Sources */,
+				4DC00B891B862F7C0037BA74 /* OSMessageHandlerTest.m in Sources */,
+				4DC00B851B862F7C0037BA74 /* OSActorSystemTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

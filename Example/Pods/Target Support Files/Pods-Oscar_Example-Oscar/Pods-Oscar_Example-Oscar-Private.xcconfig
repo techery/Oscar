@@ -1,0 +1,5 @@
+#include "Pods-Oscar_Example-Oscar.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Oscar" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Kiwi" "${PODS_ROOT}/Headers/Public/Oscar" "${PODS_ROOT}/Headers/Public/RXPromise"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

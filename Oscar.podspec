@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
     'Oscar' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'RXPromise', '~> 0.13'
 end

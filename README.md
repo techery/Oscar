@@ -23,6 +23,7 @@ pod "Oscar"
 ## Author
 
 Anastasiya Gorban, gorbannastya@gmail.com
+
 Sergey Zenchenko, sergeizenchenko@gmail.com
 
 ## License

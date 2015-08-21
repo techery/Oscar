@@ -103,7 +103,7 @@ You can register you services by class or protocol:
 OSServiceLocator *serviceLocator = [[OSServiceLocator alloc] initWithBuilderBlock:^(OSServiceLocator *locator) {
     THSessionStorage *sessionStorage = [THSessionStorage new];
     [serviceLocator registerService:sessionStorage];
-    [serviceLocator registerService:[THSessionStorage new] forProtocol:@protocol(THSessionProvider)];
+    [serviceLocator registerService:sessionStorage forProtocol:@protocol(THSessionProvider)];
 }];
 ```
 And later get access to them in your actor:

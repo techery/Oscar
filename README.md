@@ -7,7 +7,7 @@
 
 ## Requirements
 
-iOS7
+iOS 7.0
 
 ## Installation
 
@@ -20,12 +20,12 @@ pod "Oscar"
 
 ## Usage
 
-# Swactors
-
 The actor model in computer science is a mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation: in response to a message that it receives, an actor can make local decisions, create more actors, send more messages, and determine how to respond to the next message received. [(Wikipedia)](https://en.wikipedia.org/wiki/Actor_model).
 
 In actor model we have complete set of actor objects, where every actor implements it's own behavior. In order to execute it's behavior actor should receive a message of a certain type.
 Actor define set of messages that he can accept and reactions for them. Messages are sent asynchronously, but actor is processing them one at time, while other messages are waiting for their turn in a queue.
+
+Here is [sample project](https://github.com/techery/OscarSampleProject) with simple actor model system. 
 
 ##Actors and messages##
 

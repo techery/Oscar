@@ -31,7 +31,7 @@
 
 #pragma mark -  OSActorSystem
 
-- (nullable OSActorRef *)actorOfClass:(Class)class caller:(id)caller {
+- (OSActorRef *)actorOfClass:(Class)class caller:(id)caller {
     id<OSActorHandler> actor = [self getActor:class];
     if (actor) {
         OSActorRef *actorRef = [[OSActorRef alloc] initWithActor:actor caller:caller];

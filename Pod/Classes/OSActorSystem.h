@@ -10,14 +10,13 @@
 @class OSMainActorSystem;
 @protocol OSSystemActor;
 
-NS_ASSUME_NONNULL_BEGIN
 
 @protocol OSActorSystem
 
 @property(nonatomic, readonly) OSServiceLocator *serviceLocator;
 @property (nonatomic, readonly) id<OSConfigs> configs;
 
-- (nullable OSActorRef *)actorOfClass:(Class)class caller:(id)caller;
+- (OSActorRef *)actorOfClass:(Class)class caller:(id)caller;
 - (void)addActorProvider:(id<OSActorProvider>)actorProvider;
 
 @end
@@ -44,5 +43,3 @@ NS_ASSUME_NONNULL_BEGIN
                  serviceLocator:(OSServiceLocator *)serviceLocator
                    builderBlock:(void (^)(OSActorSystemBuilder *))builderBlock;
 @end
-
-NS_ASSUME_NONNULL_END

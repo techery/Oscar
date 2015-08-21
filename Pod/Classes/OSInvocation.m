@@ -20,7 +20,7 @@
 
 @implementation OSInvocation
 
-- (instancetype)initWithMessage:(id)message caller:(nullable id)caller {
+- (instancetype)initWithMessage:(id)message caller:(id)caller {
     self = [super init];
     if (self) {
         _message = message;
@@ -34,7 +34,7 @@
     return self;
 }
 
-+ (instancetype)invocationWithMessage:(id)message caller:(nullable id)caller {
++ (instancetype)invocationWithMessage:(id)message caller:(id)caller {
     return [[self alloc] initWithMessage:message caller:caller];
 }
 

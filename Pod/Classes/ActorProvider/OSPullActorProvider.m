@@ -53,7 +53,7 @@
 
 #pragma mark - Private
 
-- (nullable OSActorExecutor *)findFreeHandler {
+- (OSActorExecutor *)findFreeHandler {
     return [[self.handlers filter:^BOOL(OSActorExecutor *handler) {
         return handler.operationQueue.operationCount == 0;
     }] firstObject];

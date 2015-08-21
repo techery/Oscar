@@ -8,11 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
 @protocol OSConfigs
 
-- (nullable id)objectForKey:(NSString *)key;
+- (id)objectForKey:(NSString *)key;
 
 @end
 
@@ -22,5 +21,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
 

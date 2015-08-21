@@ -9,8 +9,6 @@
 
 #pragma mark - Protocol - OSActorHandler
 
-NS_ASSUME_NONNULL_BEGIN
-
 @protocol OSActorHandler
 - (RXPromise *)handle:(OSInvocation *)invocation;
 @end
@@ -38,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) OSServiceLocator *serviceLocator;
 @property (nonatomic, readonly) id<OSConfigs> configs;
 
-@property (nonatomic, readonly, nullable) OSInvocation *currentInvocation;
+@property (nonatomic, readonly) OSInvocation *currentInvocation;
 
 - (instancetype)initWithActorSystem:(id <OSActorSystem>)actorSystem;
 + (instancetype)actorWithActorSystem:(id <OSActorSystem>)actorSystem;
@@ -63,5 +61,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (RXPromise *)ask:(id)message;
 
 @end
-
-NS_ASSUME_NONNULL_END

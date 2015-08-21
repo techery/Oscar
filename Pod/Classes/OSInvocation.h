@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface OSInvocation : NSObject
 
@@ -16,13 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) id caller;
 @property (nonatomic, readonly) OSInvocation *parent;
 
-- (instancetype)initWithMessage:(id)message caller:(nullable id)caller;
-+ (instancetype)invocationWithMessage:(id)message caller:(nullable id)caller;
+- (instancetype)initWithMessage:(id)message caller:(id)caller;
++ (instancetype)invocationWithMessage:(id)message caller:(id)caller;
 
 - (void)start;
 - (void)finish;
-- (void)finishWithError:(nullable NSError *)error;
+- (void)finishWithError:(NSError *)error;
 
 @end
-
-NS_ASSUME_NONNULL_END

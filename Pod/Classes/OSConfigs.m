@@ -27,7 +27,7 @@
     return self;
 }
 
-- (nullable id)objectForKey:(NSString *)key {
+- (id)objectForKey:(NSString *)key {
     return self.configs[key];
 }
 

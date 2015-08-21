@@ -1,0 +1,1 @@
+RXPROMISE_OTHER_LDFLAGS = -ObjC -l"c++" -weak_framework "CoreData"

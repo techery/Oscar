@@ -29,13 +29,13 @@ Actor define set of messages that he can accept and reactions for them. Messages
 
 ##Actors and messages##
 
-To create an actor you have to inherit from DTActor class:
-```
+To create an actor you have to inherit from OSActor class:
+```objc
 @interface THSessionActor : OSActor
 @end
 ```
 Then override `-setup:`, define what kind of messeges actor can accept and provide reactions for them:
-```
+```objc
 - (void)setup {
     [self on:[THLogin class] doFuture:^RXPromise *(THLogin *message) {
         return [self askSession:message.email password:message.password];
@@ -57,12 +57,12 @@ Actor usually have references to other actors and communicates with them also th
 Actors initialize inside actor system and reference to them can only be obtained through system.
 
 How to create actor system:
-```
-OSMainActorSystem *system = [[DTMainActorSystem alloc] initWithConfigs:configs serviceLocator:serviceLocator builderBlock:^(DTActorSystemBuilder * builder) {
-    [builder addActorsPull:[DTAPIActor class] count:3];
-    [builder addSingleton:[DTSessionActor class]];
-    [builder addActor:^DTActor *(id<DTActorSystem> system) {
-        return [DTAuthActor actorWithActorSystem:system];
+```objc
+OSMainActorSystem *system = [[OSMainActorSystem alloc] initWithConfigs:configs serviceLocator:serviceLocator builderBlock:^(OSActorSystemBuilder * builder) {
+    [builder addActorsPull:[THAPIActor class] count:3];
+    [builder addSingleton:[THSessionActor class]];
+    [builder addActor:^OSActor *(id<OSActorSystem> system) {
+        return [THAuthActor actorWithActorSystem:system];
     }];
 }];
 ```
@@ -75,16 +75,16 @@ Types of actor providers that could be added to system:
 ##Sending message##
 
 To send message to actor you need actor reference:
-```
+```objc
 OSActorRef *sessionActor = [sut actorOfClass:[SomeActor class] caller:self];
 ```
 Message of any class could be sent to actor (but it's preffered for message to be immutable):
-```
+```objc
 RXPromise *session = [sessionActor ask:[[THLogin alloc] initWithLogin:login password:password]];
 ```
 
 Result of message sending is Future object which will be fulfilled with some result or rejected with error:
-```
+```objc
 session.then(^id(id result){
     NSLog(@"Session: %@", result);
     return nil;
@@ -99,7 +99,7 @@ session.then(^id(id result){
 
 Actor system is initizlized with ServiceLocator. ServiceLocator is an object that contains references to your custom services that are not actors.
 You can register you services by class or protocol:
-```
+```objc
 OSServiceLocator *serviceLocator = [[OSServiceLocator alloc] initWithBuilderBlock:^(OSServiceLocator *locator) {
     THSessionStorage *sessionStorage = [THSessionStorage new];
     [serviceLocator registerService:sessionStorage];
@@ -107,7 +107,7 @@ OSServiceLocator *serviceLocator = [[OSServiceLocator alloc] initWithBuilderBloc
 }];
 ```
 And later get access to them in your actor:
-```
+```objc
 [self on:[THLogout class] _do:^(id o) {
     THSessionStorage *sessionStorage = [self.serviceLocator serviceForClass:[THSessionStorage class]];
     [sessionStorage clear];

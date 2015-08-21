@@ -1,0 +1,6 @@
+#include "Pods-Oscar_Tests-Kiwi.xcconfig"
+FRAMEWORK_SEARCH_PATHS = ${PODS_OSCAR_TESTS_KIWI_FRAMEWORK_SEARCH_PATHS}
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Kiwi" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Kiwi" "${PODS_ROOT}/Headers/Public/Oscar" "${PODS_ROOT}/Headers/Public/RXPromise"
+OTHER_LDFLAGS = ${PODS_OSCAR_TESTS_KIWI_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

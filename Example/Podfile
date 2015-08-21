@@ -1,8 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
 
 target 'Oscar_Example', :exclusive => true do
   pod "Oscar", :path => "../"
+  pod 'RXPromise', '~> 0.13'
 end
 
 target 'Oscar_Tests', :exclusive => true do

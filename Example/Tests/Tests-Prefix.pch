@@ -2,6 +2,8 @@
 
 #ifdef __OBJC__
 
-  @import Kiwi;
+#import <Kiwi/Kiwi.h>
+#import <RXPromise/RXPromise.h>
+#import <RXPromise/RXPromise+RXExtension.h>
 
 #endif

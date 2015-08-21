@@ -9,7 +9,6 @@
 @protocol OSSystemActor;
 @protocol OSActorHandler;
 
-NS_ASSUME_NONNULL_BEGIN
 
 @protocol OSActorProvider
 
@@ -18,5 +17,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (id<OSActorHandler>)create:(id<OSActorSystem>)actorSystem;
 
 @end
-
-NS_ASSUME_NONNULL_END

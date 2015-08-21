@@ -6,7 +6,6 @@
 #import <Foundation/Foundation.h>
 #import "OSActorProvider.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface OSPullActorProvider : NSObject <OSActorProvider>
 
@@ -17,5 +16,3 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)providerWithActorType:(Class <OSSystemActor>)actorType count:(NSInteger)count;
 
 @end
-
-NS_ASSUME_NONNULL_END

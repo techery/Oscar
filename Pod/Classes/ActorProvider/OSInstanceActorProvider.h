@@ -8,7 +8,6 @@
 
 @class OSActor;
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface OSInstanceActorProvider : NSObject <OSActorProvider>
 
@@ -18,5 +17,3 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)providerWithInstance:(OSActor *)instance;
 
 @end
-
-NS_ASSUME_NONNULL_END

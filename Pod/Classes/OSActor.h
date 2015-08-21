@@ -9,8 +9,6 @@
 
 #pragma mark - Protocol - OSActorHandler
 
-NS_ASSUME_NONNULL_BEGIN
-
 @protocol OSActorHandler
 - (RXPromise *)handle:(OSInvocation *)invocation;
 @end
@@ -63,5 +61,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (RXPromise *)ask:(id)message;
 
 @end
-
-NS_ASSUME_NONNULL_END

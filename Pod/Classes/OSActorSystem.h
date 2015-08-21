@@ -10,7 +10,6 @@
 @class OSMainActorSystem;
 @protocol OSSystemActor;
 
-NS_ASSUME_NONNULL_BEGIN
 
 @protocol OSActorSystem
 
@@ -44,5 +43,3 @@ NS_ASSUME_NONNULL_BEGIN
                  serviceLocator:(OSServiceLocator *)serviceLocator
                    builderBlock:(void (^)(OSActorSystemBuilder *))builderBlock;
 @end
-
-NS_ASSUME_NONNULL_END

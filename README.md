@@ -20,9 +20,10 @@ it, simply add the following line to your Podfile:
 pod "Oscar"
 ```
 
-## Author
+## Authors
 
-Anastasiya Gorban, gorbannastya@gmail.com
+* Anastasiya Gorban, gorbannastya@gmail.com
+* Sergey Zenchenko, sergeizenchenko@gmail.com
 
 ## License
 

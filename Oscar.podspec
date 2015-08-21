@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Actor programming model framework"
 
-  s.description      = ""
+  s.description      = "The actor model in computer science is a mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation: in response to a message that it receives, an actor can make local decisions, create more actors, send more messages, and determine how to respond to the next message received.(Wikipedia)"
 
   s.homepage         = "https://github.com/techery/Oscar"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Techery" => "opensource@techery.io" }
-  s.source           = { :git => "https://github.com/Techery/Oscar.git", :tag => 1.0 }
+  s.source           = { :git => "https://github.com/Techery/Oscar.git", :tag => v0.1 }
   s.social_media_url = 'http://techery.io'
 
   s.platform     = :ios, '7.0'

@@ -9,6 +9,5 @@
 #import "OSActor.h"
 #import "OSActorSystem.h"
 #import "OSActorConstants.h"
-#import "OSServiceLocator.h"
 #import "OSInvocation.h"
 #import <RXPromise/RXPromise.h>

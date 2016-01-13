@@ -27,13 +27,11 @@
 #pragma mark - OSActor
 
 @protocol OSActorSystem, OSConfigs;
-@class OSServiceLocator;
 
 @interface OSActor : NSObject<OSActorHandler, OSSystemActor>
 
 @property (nonatomic, readonly, weak) id<OSActorSystem> actorSystem;
 
-@property (nonatomic, readonly) OSServiceLocator *serviceLocator;
 @property (nonatomic, readonly) id<OSConfigs> configs;
 
 @property (nonatomic, readonly) OSInvocation *currentInvocation;

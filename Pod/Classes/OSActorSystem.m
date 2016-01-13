@@ -12,15 +12,14 @@
 
 @interface OSMainActorSystem()
 @property (nonatomic, strong) NSMutableDictionary *actorsProviders;
-@property (nonatomic, strong) OSServiceLocator *serviceLocator;
 @end
 
 @implementation OSMainActorSystem
 
-- (instancetype)initWithConfigs:(id<OSConfigs>)configs serviceLocator:(OSServiceLocator *)serviceLocator builderBlock:(void (^)(OSActorSystemBuilder *))builderBlock {
+- (instancetype)initWithConfigs:(id<OSConfigs>)configs
+                   builderBlock:(void (^)(OSActorSystemBuilder *))builderBlock {
     if (self = [super init]) {
         _actorsProviders = [NSMutableDictionary new];
-        _serviceLocator = serviceLocator;
         _configs = configs;
         OSActorSystemBuilder *builder = [[OSActorSystemBuilder alloc] initWithActorSystem:self];
         builderBlock(builder);

@@ -16,7 +16,6 @@
 		4DC00B881B862F7C0037BA74 /* OSMessageDispatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7D1B862F7C0037BA74 /* OSMessageDispatcherTest.m */; };
 		4DC00B891B862F7C0037BA74 /* OSMessageHandlerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7E1B862F7C0037BA74 /* OSMessageHandlerTest.m */; };
 		4DC00B8A1B862F7C0037BA74 /* OSPullActorProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B7F1B862F7C0037BA74 /* OSPullActorProviderTests.m */; };
-		4DC00B8B1B862F7C0037BA74 /* OSServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B801B862F7C0037BA74 /* OSServiceLocatorTests.m */; };
 		4DC00B8C1B862F7C0037BA74 /* OSSingletonActorProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B811B862F7C0037BA74 /* OSSingletonActorProviderTest.m */; };
 		4DC00B901B8630B80037BA74 /* OSPromiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B8F1B8630B80037BA74 /* OSPromiseMatcher.m */; };
 		4DC00B931B8630D90037BA74 /* OSActorSystemMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B921B8630D90037BA74 /* OSActorSystemMock.m */; };
@@ -59,7 +58,6 @@
 		4DC00B7D1B862F7C0037BA74 /* OSMessageDispatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMessageDispatcherTest.m; sourceTree = "<group>"; };
 		4DC00B7E1B862F7C0037BA74 /* OSMessageHandlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMessageHandlerTest.m; sourceTree = "<group>"; };
 		4DC00B7F1B862F7C0037BA74 /* OSPullActorProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPullActorProviderTests.m; sourceTree = "<group>"; };
-		4DC00B801B862F7C0037BA74 /* OSServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSServiceLocatorTests.m; sourceTree = "<group>"; };
 		4DC00B811B862F7C0037BA74 /* OSSingletonActorProviderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSingletonActorProviderTest.m; sourceTree = "<group>"; };
 		4DC00B8E1B8630B80037BA74 /* OSPromiseMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPromiseMatcher.h; sourceTree = "<group>"; };
 		4DC00B8F1B8630B80037BA74 /* OSPromiseMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPromiseMatcher.m; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 				4DC00B7D1B862F7C0037BA74 /* OSMessageDispatcherTest.m */,
 				4DC00B7E1B862F7C0037BA74 /* OSMessageHandlerTest.m */,
 				4DC00B7F1B862F7C0037BA74 /* OSPullActorProviderTests.m */,
-				4DC00B801B862F7C0037BA74 /* OSServiceLocatorTests.m */,
 				4DC00B811B862F7C0037BA74 /* OSSingletonActorProviderTest.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -422,7 +419,6 @@
 				4DC00B8A1B862F7C0037BA74 /* OSPullActorProviderTests.m in Sources */,
 				4DC00B901B8630B80037BA74 /* OSPromiseMatcher.m in Sources */,
 				4DC00B8C1B862F7C0037BA74 /* OSSingletonActorProviderTest.m in Sources */,
-				4DC00B8B1B862F7C0037BA74 /* OSServiceLocatorTests.m in Sources */,
 				4DC00B871B862F7C0037BA74 /* OSInstanceActorProviderTests.m in Sources */,
 				4DC00B821B862F7C0037BA74 /* OSActorExecutorTest.m in Sources */,
 				4DC00B861B862F7C0037BA74 /* OSActorTest.m in Sources */,

@@ -57,8 +57,8 @@
     [self registerInstance:service forKey:[self classToKey:[service class]]];
 }
 
-- (id)serviceForClass:(Class)class {
-    return [self instanceForKey:[self classToKey:class]];
+- (id)serviceForClass:(Class)aClass {
+    return [self instanceForKey:[self classToKey:aClass]];
 }
 
 #pragma mark - NSCopying

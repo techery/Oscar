@@ -31,8 +31,8 @@
 
 #pragma mark -  OSActorSystem
 
-- (OSActorRef *)actorOfClass:(Class)class caller:(id)caller {
-    id<OSActorHandler> actor = [self getActor:class];
+- (OSActorRef *)actorOfClass:(Class)aClass caller:(id)caller {
+    id<OSActorHandler> actor = [self getActor:aClass];
     if (actor) {
         OSActorRef *actorRef = [[OSActorRef alloc] initWithActor:actor caller:caller];
         return actorRef;

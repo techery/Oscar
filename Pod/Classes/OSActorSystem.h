@@ -15,7 +15,7 @@
 
 @property (nonatomic, readonly) id<OSConfigs> configs;
 
-- (OSActorRef *)actorOfClass:(Class)class caller:(id)caller;
+- (OSActorRef *)actorOfClass:(Class)aClass caller:(id)caller;
 - (void)addActorProvider:(id<OSActorProvider>)actorProvider;
 
 @end

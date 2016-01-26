@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "70BF1BDB29BAE8C48B8832D8554D172A"
+               BlueprintIdentifier = "77F77747407DC2E07DE58460"
                BuildableName = "libOscar.a"
                BlueprintName = "Oscar"
                ReferencedContainer = "container:Pods.xcodeproj">

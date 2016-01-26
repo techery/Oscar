@@ -57,7 +57,7 @@
     [self registerInstance:service forKey:[self classToKey:[service class]]];
 }
 
-- (id)serviceForClass:(Class)class {
+- (id)serviceForClass:(Class)aClass {
     return [self instanceForKey:[self classToKey:class]];
 }
 

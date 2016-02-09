@@ -36,11 +36,12 @@ describe(@"OSActorOperation", ^{
         
         context(@"already started", ^{
             beforeEach(^{
-                [sut start];
+
             });
             
             it(@"shouldn't send message to handler", ^{
-                [[handler shouldNot] receive:@selector(handle:) withArguments:invocation];
+                [[handler should] receive:@selector(handle:) andReturn:[RXPromise new] withCountAtMost:1 arguments:invocation];
+                [sut start];
                 [sut start];
             });
         });
@@ -52,8 +53,8 @@ describe(@"OSActorOperation", ^{
             });
             
             it(@"should finish", ^{
-                [sut start];
                 [[sut shouldEventually] receive:@selector(finish)];
+                [sut start];
             });
         });
         
@@ -73,8 +74,8 @@ describe(@"OSActorOperation", ^{
             });
             
             it(@"should finish", ^{
-                [sut start];
                 [[sut shouldEventually] receive:@selector(finish)];
+                [sut start];                
             });
             
         });

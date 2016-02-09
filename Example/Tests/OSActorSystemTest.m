@@ -32,15 +32,13 @@ SPEC_BEGIN(OSActorSystemTest)
 describe(@"OSMainActorSystem", ^{
     __block OSMainActorSystem *sut = nil;
     __block id<OSConfigs> configs = nil;
-    __block OSServiceLocator *serviceLocator = nil;
     
     Class singleton = [OSSingletonTest class];
     __block OSInstanceTest *instance;
     
     beforeAll(^{
-        serviceLocator =  [OSServiceLocator mock];
         configs = [KWMock mockForProtocol:@protocol(OSConfigs)];
-        sut = [[OSMainActorSystem alloc] initWithConfigs:configs serviceLocator:serviceLocator builderBlock:^(OSActorSystemBuilder * builder) {
+        sut = [[OSMainActorSystem alloc] initWithConfigs:configs builderBlock:^(OSActorSystemBuilder * builder) {
             [builder addSingleton:singleton];
             [builder addActor:^OSActor *(id<OSActorSystem> system) {
                 instance = [OSInstanceTest actorWithActorSystem:system];
@@ -52,7 +50,6 @@ describe(@"OSMainActorSystem", ^{
     it(@"should be correctly initialized", ^{
         [[sut shouldNot] beNil];
         [[(NSObject *)sut.configs shouldNot] beNil];
-        [[sut.serviceLocator shouldNot] beNil];
     });
     
     context(@"asking for actor", ^{

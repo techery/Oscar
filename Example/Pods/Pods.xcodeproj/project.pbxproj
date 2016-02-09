@@ -505,6 +505,7 @@
 		BF9E04D0B0188074211A7B0567903D0B /* OSActorConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OSActorConstants.m; sourceTree = "<group>"; };
 		BFFD82AC042960595D058238B7216E76 /* KWAny.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAny.m; path = Classes/Core/KWAny.m; sourceTree = "<group>"; };
 		C0C06903793DC4F8E9D98E48C4518440 /* Pods-Oscar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Oscar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C1420CA4D55F84965E27F459 /* OSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSLog.h; sourceTree = "<group>"; };
 		C148A66168150450CB8B19C28555A8E3 /* Pods-Oscar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Oscar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C17FE3EA50264F7ACD0263230BCD533B /* KWMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMock.m; path = Classes/Mocking/KWMock.m; sourceTree = "<group>"; };
 		C4D5160BB278771169D8083E8F8ED6F6 /* KWSharedExampleRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSharedExampleRegistry.h; path = "Classes/Shared Examples/KWSharedExampleRegistry.h"; sourceTree = "<group>"; };
@@ -723,6 +724,7 @@
 				3CD1110084795C706A5861A6F34EFEBB /* ActorProvider */,
 				DDF465E80428C7B80D249CA543C3CBB7 /* ServiceLocator */,
 				EB877242D78A5C336EF6B65EE6059539 /* Utils */,
+				C1420CA4D55F84965E27F459 /* OSLog.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

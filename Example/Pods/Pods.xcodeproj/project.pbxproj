@@ -400,6 +400,7 @@
 		4C77DE66E6B59B81D6FCC614B49D9BEE /* KWSuiteConfigurationBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSuiteConfigurationBase.m; path = Classes/Config/KWSuiteConfigurationBase.m; sourceTree = "<group>"; };
 		4C77FB7A3DC0EEA9E1CE8563D3222ADA /* OSInstanceActorProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OSInstanceActorProvider.m; sourceTree = "<group>"; };
 		4C9BB764BF2414D707CA4EB4E44A2816 /* KWBeKindOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeKindOfClassMatcher.m; path = Classes/Matchers/KWBeKindOfClassMatcher.m; sourceTree = "<group>"; };
+		4D7A226D1C6B974800879206 /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
 		4E77E51F29DC36C06DE47086AF38DAEF /* KWNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNull.h; path = Classes/Core/KWNull.h; sourceTree = "<group>"; };
 		52447134BF1FB4E386BAB185F42E20D9 /* RXSettledResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXSettledResult.h; path = "RXPromise Libraries/Source/RXSettledResult.h"; sourceTree = "<group>"; };
 		56473D4453679BDC9121D791F43F74CF /* KWCaptureSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCaptureSpy.h; path = Classes/Core/KWCaptureSpy.h; sourceTree = "<group>"; };
@@ -1019,6 +1020,7 @@
 				575A88EC424F6DC4DA24DABF6EB8FE2C /* ActorProvider */,
 				4349EA548F38C71BE61BF21BD4D79583 /* ServiceLocator */,
 				7FAB6509025E3D739F6103B4A67FB102 /* Utils */,
+				4D7A226D1C6B974800879206 /* Headers.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

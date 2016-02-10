@@ -31,4 +31,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'RXPromise', '~> 0.13'
   s.dependency   'CocoaLumberjack'
+  s.prefix_header_contents '#import "Headers.h"'
 end

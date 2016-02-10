@@ -1,10 +1,5 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
-
-#import <CocoaLumberjack/CocoaLumberjack.h>
-
-#define LOG_LEVEL_DEF ddLogLevel
-static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
-
+#import "Headers.h"
 #endif
 

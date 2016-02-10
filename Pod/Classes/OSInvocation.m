@@ -8,7 +8,7 @@
 
 #import "OSInvocation.h"
 #import "OSActor.h"
-#import "OSLog.h"
+
 
 @interface OSInvocation()
 
@@ -56,15 +56,15 @@
 #pragma mark - Private
 
 - (void)logStart {
-    OSLogVerbose(@"\n>Invocation started\nmessage: %@\ncaller: %@\nparent: %@", self.message, self.caller, self.parent);
+    DDLogVerbose(@"\n>Invocation started\nmessage: %@\ncaller: %@\nparent: %@", self.message, self.caller, self.parent);
 }
 
 - (void)logFinished {
     NSTimeInterval time = [self.finished timeIntervalSinceDate:self.started];
     if (self.error) {
-        OSLogError(@"\n>Invocation finished\nmessage: %@\ntime:%.3fs\nerror: %@", self.message, time, self.error);
+        DDLogError(@"\n>Invocation finished\nmessage: %@\ntime:%.3fs\nerror: %@", self.message, time, self.error);
     } else {
-        OSLogVerbose(@"\n>Invocation finished\nmessage: %@\ntime:%.3fs", self.message, time);
+        DDLogVerbose(@"\n>Invocation finished\nmessage: %@\ntime:%.3fs", self.message, time);
     }
 }
 

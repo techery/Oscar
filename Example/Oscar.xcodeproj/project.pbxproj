@@ -250,6 +250,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				53656EA84335C4B0B45B6B0E /* Copy Pods Resources */,
+				4650FA96651A47F864F2088F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +270,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				2FB4ADB0EF35251B9E846B60 /* Copy Pods Resources */,
+				95A3773756235E59ACED9B1C /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -366,6 +368,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oscar_Tests/Pods-Oscar_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4650FA96651A47F864F2088F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oscar_Example/Pods-Oscar_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		53656EA84335C4B0B45B6B0E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +411,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95A3773756235E59ACED9B1C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oscar_Tests/Pods-Oscar_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -1,6 +1,7 @@
 #import <Kiwi/Kiwi.h>
 // Class under test
 #import "OSActor.h"
+#import "OSCancellableActor.h"
 #import "OSActorSystemMock.h"
 
 SPEC_BEGIN(OSActorRefTest)

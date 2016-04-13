@@ -79,20 +79,27 @@
 
 - (void)start {
     if (self.executing) return;
-
+    
     [self.invocation start];
-
-    [self.handler handle:self.invocation].then(^id(id result) {
+    
+    RXPromise *handlerPromise = [self.handler handle:self.invocation];
+    handlerPromise.then(^id(id result) {
         [self.promise resolveWithResult:result];
         [self.invocation finish];
         [self finish];
         return nil;
-    }, ^id(NSError* error){
+    }, ^id(NSError* error) {
         [self.promise rejectWithReason:error];
         [self.invocation finishWithError:error];
         [self finish];
         return nil;
     });
+    // This is done to pass cancel from client to server
+    // Despite it may seem to be possible race (promise is returned in -initWithInvocation:handler:)
+    // but bound to handler promise inside -start, internal implementation of RXPromise reasons
+    // that there's no gap.
+    // However, correct cancel processing, if promise is created and immediately cancelled is not guaranteed
+    [self.promise bind:handlerPromise];
     
     [super start];
 }

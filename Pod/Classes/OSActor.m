@@ -93,6 +93,14 @@
     [self handle:message];
 }
 
+- (void)takeBackThePhrase:(RXPromise *)phrase {
+    static NSError *error = nil;
+    if (!error) {
+        error = [NSError errorWithDomain:OSActorsErrorDomain code:-1 userInfo:@{OSActorsErrorMessageKey : @"Client has cancelled future"}];
+    }
+    [phrase cancelWithReason:error];
+}
+
 - (RXPromise *)handle:(id)message {
     OSInvocation *invocation = [OSInvocation invocationWithMessage:message caller:self.caller];
     return [self.actor handle:invocation];

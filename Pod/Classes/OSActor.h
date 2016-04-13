@@ -57,5 +57,6 @@
 
 - (void)tell:(id)message;
 - (RXPromise *)ask:(id)message;
+- (void)takeBackThePhrase:(RXPromise *)phrase;
 
 @end

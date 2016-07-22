@@ -1,1 +1,1 @@
-../../../RXPromise/RXPromise Libraries/Source/RXPromise.h
+../../../RXPromise/Source/RXPromise.h

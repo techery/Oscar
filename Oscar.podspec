@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/Techery/Oscar.git", :tag => s.version }
   s.social_media_url = 'http://techery.io'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'RXPromise', '~> 0.13'
+  s.dependency 'RXPromise', '~> 1.0.3'
   s.dependency   'CocoaLumberjack'
 end

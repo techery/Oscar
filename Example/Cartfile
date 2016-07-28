@@ -1,2 +1,2 @@
-github "couchdeveloper/RXPromise", '~> 1.0.3'
+github "couchdeveloper/RXPromise" ~> 1.0.3
 github "CocoaLumberjack/CocoaLumberjack"

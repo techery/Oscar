@@ -65,10 +65,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		BD85463C6F4238DC6D694E36 /* libPods-Oscar_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 598F72575CEE2AFEF354EC45 /* libPods-Oscar_Example.a */; };
-		EACA0BEE104667D7E7C45D51 /* libPods-Oscar_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E938E57D1013AFD6048C4AF /* libPods-Oscar_Tests.a */; };
-		EF7C10B91D4A0E0000ED0366 /* RXPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2E25211D426DA5006CE9EE /* RXPromise.framework */; };
-		EF7C10BB1D4A0E0000ED0366 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BA1D4A0E0000ED0366 /* CocoaLumberjack.framework */; };
+		EF7C10BE1D4A3ED900ED0366 /* RXPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BC1D4A3ED900ED0366 /* RXPromise.framework */; };
+		EF7C10BF1D4A3ED900ED0366 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BD1D4A3ED900ED0366 /* CocoaLumberjack.framework */; };
+		EF7C10C01D4A3EDE00ED0366 /* RXPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BC1D4A3ED900ED0366 /* RXPromise.framework */; };
+		EF7C10C11D4A3EDE00ED0366 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BD1D4A3ED900ED0366 /* CocoaLumberjack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,8 +82,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A536E612C78458104F4F1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		0A4004F208543A6D47FCCA3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4D2E24A51D426897006CE9EE /* Oscar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Oscar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2E24A71D426897006CE9EE /* Oscar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Oscar.h; sourceTree = "<group>"; };
 		4D2E24A91D426897006CE9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		4D2E24FD1D4268F9006CE9EE /* OSServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSServiceLocator.m; sourceTree = "<group>"; };
 		4D2E24FF1D4268F9006CE9EE /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Functional.h"; sourceTree = "<group>"; };
 		4D2E25001D4268F9006CE9EE /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
-		4D2E25211D426DA5006CE9EE /* RXPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RXPromise.framework; path = ../Carthage/Build/iOS/RXPromise.framework; sourceTree = "<group>"; };
 		4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorExecutorTest.m; sourceTree = "<group>"; };
 		4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorOperationTest.m; sourceTree = "<group>"; };
 		4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorRefTest.m; sourceTree = "<group>"; };
@@ -134,8 +131,6 @@
 		4DC00B8F1B8630B80037BA74 /* OSPromiseMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPromiseMatcher.m; sourceTree = "<group>"; };
 		4DC00B911B8630D90037BA74 /* OSActorSystemMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSActorSystemMock.h; sourceTree = "<group>"; };
 		4DC00B921B8630D90037BA74 /* OSActorSystemMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorSystemMock.m; sourceTree = "<group>"; };
-		594983EAFA3719654F28F606 /* Pods-Oscar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Tests/Pods-Oscar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		598F72575CEE2AFEF354EC45 /* libPods-Oscar_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Oscar_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* Oscar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oscar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,13 +149,9 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E938E57D1013AFD6048C4AF /* libPods-Oscar_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Oscar_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74DEC2C4617A7BF0A9FC4AAB /* Oscar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Oscar.podspec; path = ../Oscar.podspec; sourceTree = "<group>"; };
-		811A3731AACEF32BB988AB1A /* Pods-Oscar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Tests/Pods-Oscar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		ED77DE03C1D2A00E445A9F14 /* Pods-Oscar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Example/Pods-Oscar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF7C10BA1D4A0E0000ED0366 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		F1717E56AD8176D4125D9B42 /* Pods-Oscar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Example/Pods-Oscar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EF7C10BC1D4A3ED900ED0366 /* RXPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RXPromise.framework; path = Carthage/Build/iOS/RXPromise.framework; sourceTree = "<group>"; };
+		EF7C10BD1D4A3ED900ED0366 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,8 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7C10BB1D4A0E0000ED0366 /* CocoaLumberjack.framework in Frameworks */,
-				EF7C10B91D4A0E0000ED0366 /* RXPromise.framework in Frameworks */,
+				EF7C10C11D4A3EDE00ED0366 /* CocoaLumberjack.framework in Frameworks */,
+				EF7C10C01D4A3EDE00ED0366 /* RXPromise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,10 +168,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7C10BE1D4A3ED900ED0366 /* RXPromise.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				EF7C10BF1D4A3ED900ED0366 /* CocoaLumberjack.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				BD85463C6F4238DC6D694E36 /* libPods-Oscar_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +183,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				EACA0BEE104667D7E7C45D51 /* libPods-Oscar_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +274,11 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for Oscar */,
 				6003F5B5195388D20070C39A /* Tests */,
 				4D2E24A61D426897006CE9EE /* Oscar */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				72DC118652BC43451C762D4C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -306,14 +295,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF7C10BA1D4A0E0000ED0366 /* CocoaLumberjack.framework */,
-				4D2E25211D426DA5006CE9EE /* RXPromise.framework */,
+				EF7C10BC1D4A3ED900ED0366 /* RXPromise.framework */,
+				EF7C10BD1D4A3ED900ED0366 /* CocoaLumberjack.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				598F72575CEE2AFEF354EC45 /* libPods-Oscar_Example.a */,
-				6E938E57D1013AFD6048C4AF /* libPods-Oscar_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -375,27 +362,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				74DEC2C4617A7BF0A9FC4AAB /* Oscar.podspec */,
-				0A4004F208543A6D47FCCA3E /* README.md */,
-				05A536E612C78458104F4F1F /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		72DC118652BC43451C762D4C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F1717E56AD8176D4125D9B42 /* Pods-Oscar_Example.debug.xcconfig */,
-				ED77DE03C1D2A00E445A9F14 /* Pods-Oscar_Example.release.xcconfig */,
-				811A3731AACEF32BB988AB1A /* Pods-Oscar_Tests.debug.xcconfig */,
-				594983EAFA3719654F28F606 /* Pods-Oscar_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -450,12 +416,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Oscar_Example" */;
 			buildPhases = (
-				26097EEF767A2D0F86555CCA /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				53656EA84335C4B0B45B6B0E /* Copy Pods Resources */,
-				4650FA96651A47F864F2088F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -555,21 +518,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26097EEF767A2D0F86555CCA /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		2FB4ADB0EF35251B9E846B60 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -583,21 +531,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oscar_Tests/Pods-Oscar_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4650FA96651A47F864F2088F /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oscar_Example/Pods-Oscar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4D2E25231D426E64006CE9EE /* ShellScript */ = {
@@ -614,21 +547,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		53656EA84335C4B0B45B6B0E /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oscar_Example/Pods-Oscar_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		5D72781561C00125233EF3A0 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -879,10 +797,13 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1717E56AD8176D4125D9B42 /* Pods-Oscar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Oscar/Oscar-Prefix.pch";
 				INFOPLIST_FILE = "Oscar/Oscar-Info.plist";
@@ -895,10 +816,13 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED77DE03C1D2A00E445A9F14 /* Pods-Oscar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Oscar/Oscar-Prefix.pch";
 				INFOPLIST_FILE = "Oscar/Oscar-Info.plist";
@@ -911,7 +835,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 811A3731AACEF32BB988AB1A /* Pods-Oscar_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -935,7 +858,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 594983EAFA3719654F28F606 /* Pods-Oscar_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

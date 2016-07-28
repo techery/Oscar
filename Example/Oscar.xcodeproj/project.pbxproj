@@ -40,8 +40,6 @@
 		4D2E251E1D4268FA006CE9EE /* OSServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E24FD1D4268F9006CE9EE /* OSServiceLocator.m */; };
 		4D2E251F1D4268FA006CE9EE /* NSArray+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2E24FF1D4268F9006CE9EE /* NSArray+Functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D2E25201D4268FA006CE9EE /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E25001D4268F9006CE9EE /* NSArray+Functional.m */; };
-		4D2E25251D42725F006CE9EE /* RXPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2E25241D42725F006CE9EE /* RXPromise.framework */; };
-		4D2E25271D427421006CE9EE /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2E25261D427421006CE9EE /* CocoaLumberjack.framework */; };
 		4DC00B821B862F7C0037BA74 /* OSActorExecutorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */; };
 		4DC00B831B862F7C0037BA74 /* OSActorOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */; };
 		4DC00B841B862F7C0037BA74 /* OSActorRefTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */; };
@@ -69,6 +67,8 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BD85463C6F4238DC6D694E36 /* libPods-Oscar_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 598F72575CEE2AFEF354EC45 /* libPods-Oscar_Example.a */; };
 		EACA0BEE104667D7E7C45D51 /* libPods-Oscar_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E938E57D1013AFD6048C4AF /* libPods-Oscar_Tests.a */; };
+		EF7C10B91D4A0E0000ED0366 /* RXPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2E25211D426DA5006CE9EE /* RXPromise.framework */; };
+		EF7C10BB1D4A0E0000ED0366 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BA1D4A0E0000ED0366 /* CocoaLumberjack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,8 +120,6 @@
 		4D2E24FF1D4268F9006CE9EE /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Functional.h"; sourceTree = "<group>"; };
 		4D2E25001D4268F9006CE9EE /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
 		4D2E25211D426DA5006CE9EE /* RXPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RXPromise.framework; path = ../Carthage/Build/iOS/RXPromise.framework; sourceTree = "<group>"; };
-		4D2E25241D42725F006CE9EE /* RXPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RXPromise.framework; path = Carthage/Build/iOS/RXPromise.framework; sourceTree = "<group>"; };
-		4D2E25261D427421006CE9EE /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorExecutorTest.m; sourceTree = "<group>"; };
 		4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorOperationTest.m; sourceTree = "<group>"; };
 		4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorRefTest.m; sourceTree = "<group>"; };
@@ -161,6 +159,7 @@
 		811A3731AACEF32BB988AB1A /* Pods-Oscar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Tests/Pods-Oscar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ED77DE03C1D2A00E445A9F14 /* Pods-Oscar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Example/Pods-Oscar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EF7C10BA1D4A0E0000ED0366 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = ../Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		F1717E56AD8176D4125D9B42 /* Pods-Oscar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oscar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oscar_Example/Pods-Oscar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,8 +168,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2E25271D427421006CE9EE /* CocoaLumberjack.framework in Frameworks */,
-				4D2E25251D42725F006CE9EE /* RXPromise.framework in Frameworks */,
+				EF7C10BB1D4A0E0000ED0366 /* CocoaLumberjack.framework in Frameworks */,
+				EF7C10B91D4A0E0000ED0366 /* RXPromise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +306,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D2E25261D427421006CE9EE /* CocoaLumberjack.framework */,
-				4D2E25241D42725F006CE9EE /* RXPromise.framework */,
+				EF7C10BA1D4A0E0000ED0366 /* CocoaLumberjack.framework */,
 				4D2E25211D426DA5006CE9EE /* RXPromise.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,

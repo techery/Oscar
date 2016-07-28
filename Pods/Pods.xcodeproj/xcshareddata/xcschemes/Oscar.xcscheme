@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D97872892925C6C027DCA10F'
+               BlueprintIdentifier = '61DEFDF2E5EA38AFB18F805F'
                BlueprintName = 'Oscar'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libOscar.a'>

@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/OSConfigs.h
+../../../../Pod/Classes/OSConfigs.h

@@ -37,6 +37,22 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>00AF7204C9D0B39DDABE888FFBED17B9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EF1063E6E079FBEBD78198713BF51741</string>
+				<string>BA2E3BC3AB4222A205EB2FE30D9E59B8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Oscar</string>
+			<key>path</key>
+			<string>..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0134903173C7465906F8A9B72DFB0E4C</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -159,19 +175,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>03D4B165EFE59EAA7320F1BC7D64C5C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSMessageDispatcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>04F6E744F6D6F0AF61C6C4CD544E64C1</key>
 		<dict>
 			<key>fileRef</key>
@@ -283,36 +286,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>073B686A97AE3DCD2545E51FD06A220A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2A1259A6877B53585AD2C42169D6D05F</string>
-				<string>5BAE9F3B6A1892428E04FFAB4ED32736</string>
-				<string>E6CB6A789F737A5DE798ADD4C8429194</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Oscar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07A81E5E6A2619262169385777DA4E09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Headers.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>07D01A0467A9D29A88D4689383A1B794</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -372,19 +345,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>08F3291654C72B6216E6F68065083F4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSSingletonActorProvider.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>0A861373D5D5AAD9608B571E9372F271</key>
 		<dict>
 			<key>isa</key>
@@ -413,22 +373,9 @@
 		<key>0ADD47BC0D01DD41B571ADF6BE4A7CCF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D07A2CB1ED3910ACB98E8F8149B0FDBB</string>
+			<string>8E7D3E7E883FC32691918224F455EE1A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>0B7B9E80741B53F69A7F5CD875195689</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSArray+Functional.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0BE4E7F1EBB10CD1030D5A9AD2C8D9C5</key>
 		<dict>
@@ -512,7 +459,7 @@
 		<key>0DEC20DB8C229E08884B613C79F38625</key>
 		<dict>
 			<key>fileRef</key>
-			<string>63F67956FF9092248D2A4EDE79EA037D</string>
+			<string>5DA2A459FEE844D4FAFA17894DF8CB83</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -531,16 +478,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0E8DA391AAD6E0DA9A9C708121D5E139</key>
+		<key>0E0F70436206EA7F414A9F81E8187340</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>31660383E8FEEFBD0B37A650F8D2810E</string>
+				<string>5DA2A459FEE844D4FAFA17894DF8CB83</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ServiceLocator</string>
 			<key>path</key>
-			<string>OSActor.h</string>
+			<string>ServiceLocator</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -571,19 +521,6 @@
 			<string>KWBeforeAllNode.m</string>
 			<key>path</key>
 			<string>Classes/Nodes/KWBeforeAllNode.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F9262C61DC73F3E4FB615E65AFFF717</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSMessageHandler.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -786,6 +723,22 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>15426A31670E347BD3A824422C9A358F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F72CC9038D4F29A3E724C2FDE91DCF63</string>
+				<string>296C923A73EE08EF164828BB099E5C9E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Utils</string>
+			<key>path</key>
+			<string>Utils</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>161B79EDBA6937D3B3A8A0064CCDB527</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -941,6 +894,19 @@
 				</array>
 			</dict>
 		</dict>
+		<key>1A8B10AD3967C7282D380CF99F84F9BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSActorOperation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>1AA52D4A6BE3BB8FDF1ADEF3D49DA5A8</key>
 		<dict>
 			<key>fileRef</key>
@@ -952,6 +918,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>1B7999C4622B22441AA9029B7EC14A52</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSMessageDispatcher.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1BA46F121BFC6E5665A949BB9350B4DA</key>
 		<dict>
@@ -995,16 +974,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1CCF04719F4134BFF52FC3012EC0392C</key>
+		<key>1CFDC2174CA3D96DB745321E30FB9A80</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>AD579D945089E223E2D4B60260C8CB23</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSConfigs.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1222,7 +1201,7 @@
 		<key>231AD21B54743628488B43F2C8C7B12A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>26BF8F37C672FF2F95E617B847DB05ED</string>
+			<string>32BDFB8F454B85277E554BA19ADA14C3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1243,7 +1222,7 @@
 		<key>2411C80CCB6EC49BE22AF693234BF905</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0E8DA391AAD6E0DA9A9C708121D5E139</string>
+			<string>FC7E78491FBDA146CBD914E422ED88DC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1322,19 +1301,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>26BF8F37C672FF2F95E617B847DB05ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSPullActorProvider.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>270D8398EAB0556BF75588DF712A2B6E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1378,16 +1344,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>29A97C72E65F2B01C334C4227558F272</key>
+		<key>296C923A73EE08EF164828BB099E5C9E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>OSMessageDispatcher.h</string>
+			<string>NSArray+Functional.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>29A800F366F26957D9C185B895FC1DA1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSActorSystem.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1404,19 +1383,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>2A1259A6877B53585AD2C42169D6D05F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Oscar.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2B4335ACEDE0F345250CE03A61ED697C</key>
 		<dict>
@@ -1477,6 +1443,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>2D0B53CA2FDABCA425B3D0CF54CD5154</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSMessageDispatcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2D14720A952BE9B6DFCEA0697809AB5C</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -1508,19 +1487,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>2D5645F3E7782B682F82C3D57A9AA02A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSActors.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2D56F0887D44D6B709371408DDC3C044</key>
 		<dict>
@@ -1666,7 +1632,7 @@
 		<key>2FE05CF47561EB0A12A20378CA6886ED</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8D5AA1B286CF8C31F3804A5751178E77</string>
+			<string>296C923A73EE08EF164828BB099E5C9E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1712,6 +1678,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>31660383E8FEEFBD0B37A650F8D2810E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSServiceLocator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3228C1A519C374E598C0499F47EC6FF0</key>
 		<dict>
 			<key>fileRef</key>
@@ -1750,6 +1729,19 @@
 			<string>NSInvocation+OCMAdditions.m</string>
 			<key>path</key>
 			<string>Classes/Core/NSInvocation+OCMAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>32BDFB8F454B85277E554BA19ADA14C3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSPullActorProvider.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1884,7 +1876,7 @@
 		<key>3593427E6850994F1579B4E1C60910FB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DA243E1978F65E65B394C311546867F8</string>
+			<string>E7095EAF4CA5F732F3C2503B7CC092A0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1907,6 +1899,19 @@
 			<string>KWMatchers.m</string>
 			<key>path</key>
 			<string>Classes/Core/KWMatchers.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35F53932D161B45DCE30DE93F3A5CFE0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Oscar-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2261,19 +2266,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>3D31E9AC03C3A2250D983C002C723AD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSActorProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>3D59967B1E1921840A8DF09269452A27</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2292,7 +2284,7 @@
 		<key>3DB9F0CC13386B8DF2260FBB50250285</key>
 		<dict>
 			<key>fileRef</key>
-			<string>532A314CDAD52346D1E6B2903EB4EE51</string>
+			<string>D04BBC787E04736B3C7ECAEAFA198CD7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2328,7 +2320,7 @@
 		<key>3E54FBFB67A5EAAFA3417571A8F02689</key>
 		<dict>
 			<key>fileRef</key>
-			<string>07A81E5E6A2619262169385777DA4E09</string>
+			<string>FD9C53A9DF5F8706FA949040958E5DDD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2369,7 +2361,7 @@
 		<key>4065C0378FF7ECBD461B935E4F366C80</key>
 		<dict>
 			<key>fileRef</key>
-			<string>08F3291654C72B6216E6F68065083F4D</string>
+			<string>77074287ABEE89CF00203FBD568717CE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2397,19 +2389,6 @@
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-Oscar_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41A4DB5F7FDF512930A2AADE7F046581</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSServiceLocator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2603,7 +2582,7 @@
 		<key>4673A2908DE1CEB5BB6668C9DAB0A284</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FD6E24762162E3D79C1EF4AC12F17AF1</string>
+			<string>CE9C083C3E79A1F0F77BEB1655811816</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2764,7 +2743,7 @@
 		<key>47EF99CD8211205CB7AD2610F791D124</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0F9262C61DC73F3E4FB615E65AFFF717</string>
+			<string>B5ED0ACF8D391F5F0818982BCC81FA1B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2831,7 +2810,7 @@
 		<key>49F7FCC6F453701491DC817A108EAC1B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>2A1259A6877B53585AD2C42169D6D05F</string>
+			<string>DDCD831239F254524A37691A05414889</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -2925,27 +2904,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>4AF24D42C62A52EA21B0AB0705FAB01B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3D31E9AC03C3A2250D983C002C723AD7</string>
-				<string>4BF00E1FF83017C3EB1C0621ECCAD399</string>
-				<string>FD6E24762162E3D79C1EF4AC12F17AF1</string>
-				<string>F90CBE1E5DA7C0FB8E46A7933AED3326</string>
-				<string>26BF8F37C672FF2F95E617B847DB05ED</string>
-				<string>D185EDE5F087B2981606D3C8897BA26D</string>
-				<string>08F3291654C72B6216E6F68065083F4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ActorProvider</string>
-			<key>path</key>
-			<string>ActorProvider</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>4AFE65D9222243F6E478CB9A1FC01E61</key>
 		<dict>
 			<key>fileRef</key>
@@ -2971,19 +2929,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>4BF00E1FF83017C3EB1C0621ECCAD399</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSInstanceActorProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4C2161454F48306E16F75D52BFC30790</key>
 		<dict>
@@ -3148,7 +3093,7 @@
 		<key>50E55E53432D8C1D837C4956A1CF5537</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>2A1259A6877B53585AD2C42169D6D05F</string>
+			<string>DDCD831239F254524A37691A05414889</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -3277,19 +3222,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>532A314CDAD52346D1E6B2903EB4EE51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSInvocation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>532A9BDDB6C89D0748BA42A3EC9F3210</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3403,19 +3335,6 @@
 			<string>KWAny.m</string>
 			<key>path</key>
 			<string>Classes/Core/KWAny.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54B7C39659D76358299179A7909CD33D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSActorConstants.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3612,56 +3531,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>5BAE9F3B6A1892428E04FFAB4ED32736</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Oscar-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BDD6CC5784CB2CC538CD01A4652C24F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>07A81E5E6A2619262169385777DA4E09</string>
-				<string>0E8DA391AAD6E0DA9A9C708121D5E139</string>
-				<string>AFFD48BB01807EB8F682A668274B23D4</string>
-				<string>65BE4EDB22885806FA55DCC9B3C8EC0C</string>
-				<string>54B7C39659D76358299179A7909CD33D</string>
-				<string>BE714C0E71533E3A2E373D577935254A</string>
-				<string>D07A2CB1ED3910ACB98E8F8149B0FDBB</string>
-				<string>BBA7BA44B2A74586AF25BA06FD08BF81</string>
-				<string>6559BF56B9C97D04095CC7F063B2E182</string>
-				<string>2D5645F3E7782B682F82C3D57A9AA02A</string>
-				<string>96F814E46776F5B6CF16EB89FC813E54</string>
-				<string>E0206AE216EBB7EAEADA2AE60B2007F4</string>
-				<string>DA243E1978F65E65B394C311546867F8</string>
-				<string>9B7FA5F5E1882559B60F54FB187FAF50</string>
-				<string>CF6430A812951592E5F4F9C05B30EAFA</string>
-				<string>532A314CDAD52346D1E6B2903EB4EE51</string>
-				<string>29A97C72E65F2B01C334C4227558F272</string>
-				<string>03D4B165EFE59EAA7320F1BC7D64C5C8</string>
-				<string>90D03406E3B23FFC2BCB4E25E34A8625</string>
-				<string>0F9262C61DC73F3E4FB615E65AFFF717</string>
-				<string>4AF24D42C62A52EA21B0AB0705FAB01B</string>
-				<string>75442AC007BF22A190DC5E47F81CEB89</string>
-				<string>92181440C0B9C602CB84163FE6E3C96C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5C553FDFF0626D7115F6C22DA84BAC94</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3704,6 +3573,19 @@
 				</array>
 			</dict>
 		</dict>
+		<key>5DA2A459FEE844D4FAFA17894DF8CB83</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSServiceLocator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5DCBA219BC81D9190F11EE56F93BB908</key>
 		<dict>
 			<key>fileRef</key>
@@ -3734,7 +3616,7 @@
 		<key>5E845023C018AD5A55C7E55F8A06E689</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>2A1259A6877B53585AD2C42169D6D05F</string>
+			<string>DDCD831239F254524A37691A05414889</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -3827,7 +3709,7 @@
 		<key>61AF1D5182F49CFD3C81A9FD101B3A5E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0B7B9E80741B53F69A7F5CD875195689</string>
+			<string>F72CC9038D4F29A3E724C2FDE91DCF63</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3841,7 +3723,7 @@
 		<key>61DDF46E0E9E8B837661DDBB2BBAB3D5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>96F814E46776F5B6CF16EB89FC813E54</string>
+			<string>9F1C4FB796A25EEE813E15B40EA67FC8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3878,19 +3760,6 @@
 			<string>DDContextFilterLogFormatter.m</string>
 			<key>path</key>
 			<string>Classes/Extensions/DDContextFilterLogFormatter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63F67956FF9092248D2A4EDE79EA037D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSServiceLocator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3946,19 +3815,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>6559BF56B9C97D04095CC7F063B2E182</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSActorOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>656479029A5A15463E080FD25F8903B2</key>
 		<dict>
 			<key>fileRef</key>
@@ -3970,19 +3826,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>65BE4EDB22885806FA55DCC9B3C8EC0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSActorConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6640333F151029D928E569BA78077CC9</key>
 		<dict>
@@ -4016,7 +3859,7 @@
 		<key>670A3F2151BDBA05EB8E1F8A8EE9674D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>54B7C39659D76358299179A7909CD33D</string>
+			<string>D511EFF751976073C1C1C3DF9F55BB12</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -4038,7 +3881,7 @@
 		<key>67E2EC2AD1DB156BD55322FEBF4C1130</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F90CBE1E5DA7C0FB8E46A7933AED3326</string>
+			<string>7B12CCC7563389294D3B2E0AA003FFE8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4162,7 +4005,7 @@
 		<key>6CEDDD292150837240AC8C0433034981</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3D31E9AC03C3A2250D983C002C723AD7</string>
+			<string>B9ED4C8BDB0843CCB9481184D90202E2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4295,10 +4138,23 @@
 				</array>
 			</dict>
 		</dict>
+		<key>71F18DE7F3D9CDB02A95C1091102ACBA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSActorConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>723EBC9767A5AC92132D374EEEA4BCD8</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>2A1259A6877B53585AD2C42169D6D05F</string>
+			<string>DDCD831239F254524A37691A05414889</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -4374,21 +4230,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>73FE60FA496A81F0E08140AE34550650</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5BDD6CC5784CB2CC538CD01A4652C24F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>74FAF4FE093F217BE276434EEEFF7718</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4401,22 +4242,6 @@
 			<string>KWBlockNode.h</string>
 			<key>path</key>
 			<string>Classes/Nodes/KWBlockNode.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75442AC007BF22A190DC5E47F81CEB89</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>41A4DB5F7FDF512930A2AADE7F046581</string>
-				<string>63F67956FF9092248D2A4EDE79EA037D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ServiceLocator</string>
-			<key>path</key>
-			<string>ServiceLocator</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4474,6 +4299,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>77074287ABEE89CF00203FBD568717CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSSingletonActorProvider.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7832CDF926A5F441FB07A3ADBB54BD5B</key>
 		<dict>
@@ -4599,6 +4437,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>7B12CCC7563389294D3B2E0AA003FFE8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSPullActorProvider.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7BFFEB4D9020F2D65FE32B2DA4786F1E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4656,7 +4507,7 @@
 		<key>7D0EAA53E6AB70E995ECF1E3DCB59B41</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4BF00E1FF83017C3EB1C0621ECCAD399</string>
+			<string>916F2428502782136B753173087187C2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4687,7 +4538,7 @@
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>1CCF04719F4134BFF52FC3012EC0392C</string>
+				<string>DFD11013DF7BB37B7B362CA800DB0812</string>
 				<string>433CD3331B6C3787F473C941B61FC68F</string>
 				<string>491958E43A3A1AA3A5BA3E27D58FC726</string>
 				<string>4A2395F5886C6F52C1F9A90C3F8231F9</string>
@@ -4956,6 +4807,19 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>878EFF0E3EA396E73C5AF97019A7089D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSActorOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>87C21BE3742E40275EBE6FB5513FE2B2</key>
 		<dict>
 			<key>fileRef</key>
@@ -5021,7 +4885,7 @@
 		<key>892ABB34A29BF0573507A67446874C95</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D185EDE5F087B2981606D3C8897BA26D</string>
+			<string>C63A1F1F74064AC9CE7729E183F81F01</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -5072,7 +4936,7 @@
 		<key>8978E256434E6700436A27EA0365F5EF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>41A4DB5F7FDF512930A2AADE7F046581</string>
+			<string>31660383E8FEEFBD0B37A650F8D2810E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -5127,19 +4991,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8D5AA1B286CF8C31F3804A5751178E77</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSArray+Functional.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>8D702258F1A13B9CF20684D4E19AC0DC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -5181,6 +5032,19 @@
 			<string>KWWorkarounds.h</string>
 			<key>path</key>
 			<string>Classes/Core/KWWorkarounds.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E7D3E7E883FC32691918224F455EE1A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSActorExecutor.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5226,7 +5090,7 @@
 		<key>8F6C9DAD174C38F1764D01E2457DC745</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2D5645F3E7782B682F82C3D57A9AA02A</string>
+			<string>E1B42A9ADF0BBD428830914BAA139A3E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -5262,7 +5126,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>90D03406E3B23FFC2BCB4E25E34A8625</key>
+		<key>916F2428502782136B753173087187C2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -5271,7 +5135,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>OSMessageHandler.h</string>
+			<string>OSInstanceActorProvider.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5287,22 +5151,6 @@
 			<string>A3C077788016E0583C0570EBA72288EA</string>
 			<key>remoteInfo</key>
 			<string>Oscar-Oscar</string>
-		</dict>
-		<key>92181440C0B9C602CB84163FE6E3C96C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0B7B9E80741B53F69A7F5CD875195689</string>
-				<string>8D5AA1B286CF8C31F3804A5751178E77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Utils</string>
-			<key>path</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9258A7B71D4C13DBFC66C4B8BE43B79A</key>
 		<dict>
@@ -5447,19 +5295,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>96F814E46776F5B6CF16EB89FC813E54</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSActorSystem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>970377DC5E9688D4C89A16CCF2C19930</key>
 		<dict>
 			<key>fileRef</key>
@@ -5484,6 +5319,19 @@
 			<string>KWBeWithinMatcher.h</string>
 			<key>path</key>
 			<string>Classes/Matchers/KWBeWithinMatcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>97D4195567AC6E080BEF986F6C3755EE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Oscar-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -5598,19 +5446,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>9B7FA5F5E1882559B60F54FB187FAF50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSConfigs.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9BB934436F56A8AE6CE75D05D134C683</key>
 		<dict>
@@ -5767,6 +5602,19 @@
 				</array>
 			</dict>
 		</dict>
+		<key>9F1C4FB796A25EEE813E15B40EA67FC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSActorSystem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9FFA8830A7F240AFFAB0DB90239A6C4E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -5839,6 +5687,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A19CB417F97857BBC938E0FD64FD5730</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSInvocation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A1B9A1BED985832B2FA2473296AF2F59</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -5857,7 +5718,7 @@
 		<key>A1BFB03510241FA1C43D506F0891B4AC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5BAE9F3B6A1892428E04FFAB4ED32736</string>
+			<string>35F53932D161B45DCE30DE93F3A5CFE0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -5879,7 +5740,7 @@
 		<key>A1F618EC0570E51B3012F790C4E19127</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6559BF56B9C97D04095CC7F063B2E182</string>
+			<string>1A8B10AD3967C7282D380CF99F84F9BF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -6310,22 +6171,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>AD579D945089E223E2D4B60260C8CB23</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>73FE60FA496A81F0E08140AE34550650</string>
-				<string>073B686A97AE3DCD2545E51FD06A220A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Oscar</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>AD802556737B5E626B16AFD0639F4D3D</key>
 		<dict>
 			<key>fileRef</key>
@@ -6367,19 +6212,6 @@
 			<string>KWMessageSpying.h</string>
 			<key>path</key>
 			<string>Classes/Core/KWMessageSpying.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFFD48BB01807EB8F682A668274B23D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSActor.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -6467,6 +6299,43 @@
 				</array>
 			</dict>
 		</dict>
+		<key>B3B8C5264F4DD79AC58C2B483F5D0CDD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FD9C53A9DF5F8706FA949040958E5DDD</string>
+				<string>FC7E78491FBDA146CBD914E422ED88DC</string>
+				<string>F2BBA12B513C2D874FACA86EE9356676</string>
+				<string>71F18DE7F3D9CDB02A95C1091102ACBA</string>
+				<string>D511EFF751976073C1C1C3DF9F55BB12</string>
+				<string>BCBBC565C09DD77874F2E658E652F421</string>
+				<string>8E7D3E7E883FC32691918224F455EE1A</string>
+				<string>878EFF0E3EA396E73C5AF97019A7089D</string>
+				<string>1A8B10AD3967C7282D380CF99F84F9BF</string>
+				<string>E1B42A9ADF0BBD428830914BAA139A3E</string>
+				<string>9F1C4FB796A25EEE813E15B40EA67FC8</string>
+				<string>29A800F366F26957D9C185B895FC1DA1</string>
+				<string>E7095EAF4CA5F732F3C2503B7CC092A0</string>
+				<string>1CFDC2174CA3D96DB745321E30FB9A80</string>
+				<string>A19CB417F97857BBC938E0FD64FD5730</string>
+				<string>D04BBC787E04736B3C7ECAEAFA198CD7</string>
+				<string>2D0B53CA2FDABCA425B3D0CF54CD5154</string>
+				<string>1B7999C4622B22441AA9029B7EC14A52</string>
+				<string>E6EC68114628878EEAEE0BB4C3E010F2</string>
+				<string>B5ED0ACF8D391F5F0818982BCC81FA1B</string>
+				<string>BA0B63182E2534D51EB9D5D652667C94</string>
+				<string>0E0F70436206EA7F414A9F81E8187340</string>
+				<string>15426A31670E347BD3A824422C9A358F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B3ED6AAC648782500ECAE4518F5679BF</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6500,9 +6369,22 @@
 		<key>B58AD4BBAF5F2E4BD0DDA4FE9741FCF4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AFFD48BB01807EB8F682A668274B23D4</string>
+			<string>F2BBA12B513C2D874FACA86EE9356676</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>B5ED0ACF8D391F5F0818982BCC81FA1B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSMessageHandler.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B5F515531B7E8214BA3312E034E8E131</key>
 		<dict>
@@ -6655,6 +6537,57 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B9ED4C8BDB0843CCB9481184D90202E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSActorProvider.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA0B63182E2534D51EB9D5D652667C94</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B9ED4C8BDB0843CCB9481184D90202E2</string>
+				<string>916F2428502782136B753173087187C2</string>
+				<string>CE9C083C3E79A1F0F77BEB1655811816</string>
+				<string>7B12CCC7563389294D3B2E0AA003FFE8</string>
+				<string>32BDFB8F454B85277E554BA19ADA14C3</string>
+				<string>C63A1F1F74064AC9CE7729E183F81F01</string>
+				<string>77074287ABEE89CF00203FBD568717CE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ActorProvider</string>
+			<key>path</key>
+			<string>ActorProvider</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA2E3BC3AB4222A205EB2FE30D9E59B8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DDCD831239F254524A37691A05414889</string>
+				<string>35F53932D161B45DCE30DE93F3A5CFE0</string>
+				<string>97D4195567AC6E080BEF986F6C3755EE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Oscar</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6696,19 +6629,6 @@
 			<string>Kiwi.h</string>
 			<key>path</key>
 			<string>Classes/Core/Kiwi.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BBA7BA44B2A74586AF25BA06FD08BF81</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSActorOperation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -6756,6 +6676,19 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>BCBBC565C09DD77874F2E658E652F421</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSActorExecutor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BCBC3F5A4189CC78275F9BAD8AA63399</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -6796,19 +6729,6 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
-		</dict>
-		<key>BE714C0E71533E3A2E373D577935254A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSActorExecutor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BEDE4C2E70716F974B78B8830A34E3B2</key>
 		<dict>
@@ -7123,6 +7043,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>C63A1F1F74064AC9CE7729E183F81F01</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSSingletonActorProvider.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C6979B65496E638CB1FCA9CC41A919A6</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -7415,6 +7348,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>CE9C083C3E79A1F0F77BEB1655811816</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSInstanceActorProvider.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>CEEE40A20915A63E17692C2587F95049</key>
 		<dict>
 			<key>children</key>
@@ -7472,19 +7418,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CF6430A812951592E5F4F9C05B30EAFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSInvocation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CFD223E6EE5512BC2344549F98134A19</key>
 		<dict>
 			<key>fileRef</key>
@@ -7497,7 +7430,7 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>D07A2CB1ED3910ACB98E8F8149B0FDBB</key>
+		<key>D04BBC787E04736B3C7ECAEAFA198CD7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -7506,7 +7439,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>OSActorExecutor.m</string>
+			<string>OSInvocation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -7527,7 +7460,7 @@
 		<key>D100B31BECA4641CB57755D7FC5B73EF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>65BE4EDB22885806FA55DCC9B3C8EC0C</string>
+			<string>71F18DE7F3D9CDB02A95C1091102ACBA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -7551,19 +7484,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>D185EDE5F087B2981606D3C8897BA26D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSSingletonActorProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D1CB5AE9AD337A51000355ABBE23768D</key>
 		<dict>
@@ -7796,6 +7716,19 @@
 				</array>
 			</dict>
 		</dict>
+		<key>D511EFF751976073C1C1C3DF9F55BB12</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSActorConstants.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D56AEEE717171FD264DCCDB82ABF2D78</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -7826,7 +7759,7 @@
 		<key>D6769643BE90E96C78D442F306729943</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E0206AE216EBB7EAEADA2AE60B2007F4</string>
+			<string>29A800F366F26957D9C185B895FC1DA1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -7892,7 +7825,7 @@
 		<key>D8A3572B208BA3A784F582BD096F2FB1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CF6430A812951592E5F4F9C05B30EAFA</string>
+			<string>A19CB417F97857BBC938E0FD64FD5730</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -7916,19 +7849,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>DA243E1978F65E65B394C311546867F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSConfigs.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DA3C8EA3BE9EF5AF2939682E14D47EE8</key>
 		<dict>
@@ -8040,6 +7960,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>DDCD831239F254524A37691A05414889</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Oscar.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>DE0E0479AAB43AD69DB2E3B0A8CB33CB</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -8136,16 +8069,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E0206AE216EBB7EAEADA2AE60B2007F4</key>
+		<key>DFD11013DF7BB37B7B362CA800DB0812</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>00AF7204C9D0B39DDABE888FFBED17B9</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSActorSystem.m</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -8167,7 +8100,7 @@
 		<key>E09A71FC6AFC68A8BB30DCB0741E3D7E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9B7FA5F5E1882559B60F54FB187FAF50</string>
+			<string>1CFDC2174CA3D96DB745321E30FB9A80</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -8197,6 +8130,19 @@
 			<string>DDFileLogger.h</string>
 			<key>path</key>
 			<string>Classes/DDFileLogger.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1B42A9ADF0BBD428830914BAA139A3E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSActors.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -8230,7 +8176,7 @@
 		<key>E239556B255AB556B37A398BD61DDE5D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>03D4B165EFE59EAA7320F1BC7D64C5C8</string>
+			<string>1B7999C4622B22441AA9029B7EC14A52</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -8371,7 +8317,7 @@
 		<key>E6627BC0CEB1EE9347190EBED925F902</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BBA7BA44B2A74586AF25BA06FD08BF81</string>
+			<string>878EFF0E3EA396E73C5AF97019A7089D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -8382,7 +8328,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>E6CB6A789F737A5DE798ADD4C8429194</key>
+		<key>E6EC68114628878EEAEE0BB4C3E010F2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -8391,7 +8337,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Oscar-prefix.pch</string>
+			<string>OSMessageHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7095EAF4CA5F732F3C2503B7CC092A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSConfigs.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -8722,7 +8681,7 @@
 		<key>EE68CCB7F08FCD4E0B35DD898F33BB6F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>29A97C72E65F2B01C334C4227558F272</string>
+			<string>2D0B53CA2FDABCA425B3D0CF54CD5154</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -8736,7 +8695,7 @@
 		<key>EE6BECC3E5FB5B9F0EE1CF859A49D116</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BE714C0E71533E3A2E373D577935254A</string>
+			<string>BCBBC565C09DD77874F2E658E652F421</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -8832,6 +8791,21 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>EF1063E6E079FBEBD78198713BF51741</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B3B8C5264F4DD79AC58C2B483F5D0CDD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pod</string>
+			<key>path</key>
+			<string>Pod</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>EF34524E24DDAC0F5B000312886526E7</key>
 		<dict>
 			<key>fileRef</key>
@@ -8916,7 +8890,7 @@
 		<key>F125A81795124681810C21777FC97913</key>
 		<dict>
 			<key>fileRef</key>
-			<string>90D03406E3B23FFC2BCB4E25E34A8625</string>
+			<string>E6EC68114628878EEAEE0BB4C3E010F2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -9005,6 +8979,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>F2BBA12B513C2D874FACA86EE9356676</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OSActor.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F3061D59B966CE24D61E146F43BBD243</key>
 		<dict>
@@ -9306,6 +9293,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>F72CC9038D4F29A3E724C2FDE91DCF63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSArray+Functional.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>F7EA8792D0D4D1C2E8C5FA310E07D7FC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -9348,19 +9348,6 @@
 			<string>Support Files</string>
 			<key>path</key>
 			<string>../Target Support Files/CocoaLumberjack</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F90CBE1E5DA7C0FB8E46A7933AED3326</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OSPullActorProvider.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -9534,6 +9521,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>FC7E78491FBDA146CBD914E422ED88DC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OSActor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FCDD4B61F5637AE4E74F2A0D48D2643C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -9605,19 +9605,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FD6E24762162E3D79C1EF4AC12F17AF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OSInstanceActorProvider.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>FD78F3F6F7E7E302B3EEB8F930993F04</key>
 		<dict>
 			<key>fileRef</key>
@@ -9629,6 +9616,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>FD9C53A9DF5F8706FA949040958E5DDD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Headers.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FDBE150D825C3E707D70980123D2F678</key>
 		<dict>

@@ -16,12 +16,12 @@ PODS:
 DEPENDENCIES:
   - CocoaLumberjack
   - Kiwi
-  - Oscar (from `../`)
+  - Oscar (from `./`)
   - RXPromise (~> 1.0.3)
 
 EXTERNAL SOURCES:
   Oscar:
-    :path: "../"
+    :path: "./"
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0

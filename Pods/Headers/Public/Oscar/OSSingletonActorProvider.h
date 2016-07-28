@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/ActorProvider/OSSingletonActorProvider.h
+../../../../Pod/Classes/ActorProvider/OSSingletonActorProvider.h

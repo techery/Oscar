@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Functional)
+@interface NSArray (Functional_Oscar)
 
 - (NSArray *)map:(id (^)(id))mapBlock;
 - (NSArray *)filter:(BOOL (^)(id))filterBlock;

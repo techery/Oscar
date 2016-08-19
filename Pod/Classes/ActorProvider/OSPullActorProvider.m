@@ -4,7 +4,7 @@
 //
 
 #import "OSPullActorProvider.h"
-#import "NSArray+Functional.h"
+#import "NSArray+Functional_Oscar.h"
 #import "OSActor.h"
 #import "OSActorExecutor.h"
 

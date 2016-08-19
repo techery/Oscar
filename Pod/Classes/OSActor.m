@@ -22,7 +22,6 @@
     if (self) {
         _actorSystem = actorSystem;
         _dispatcher = [OSMessageDispatcher new];
-        _serviceLocator = actorSystem.serviceLocator;
         _configs = actorSystem.configs;
         [self setup];
     }

@@ -7,8 +7,8 @@
 //
 
 #import "OSInvocation.h"
-#import "OSActorSystem.h"
 #import "OSActor.h"
+#import "Headers.h"
 
 @interface OSInvocation()
 
@@ -56,25 +56,16 @@
 #pragma mark - Private
 
 - (void)logStart {
-    int spaces = [self parentLevel] * 10;
-    NSLog(@">Invocation started\n%*smessage: %@\n%*scaller: %@\n%*sparrent: %@", spaces, " ",self.message,  spaces, " ",self.caller,  spaces, " ",self.parent.message);
+    DDLogVerbose(@"\n>Invocation started\nmessage: %@\ncaller: %@\nparent: %@", self.message, self.caller, self.parent);
 }
 
 - (void)logFinished {
-    double time = [self.finished timeIntervalSinceDate:self.started];
-    int spaces = [self parentLevel] * 10;
-    NSLog(@">Invocation finished\n%*smessage: %@\n%*stime:%.3fs\n%*serror: %@", spaces, " ",self.message, spaces, " ", time, spaces, " ", self.error.localizedDescription);
-}
-
-- (int)parentLevel {
-    __block int(^level)(OSInvocation *) = ^int(OSInvocation *p) {
-        if (!p) {
-            return 0;
-        }
-        return level(p.parent) + 1;
-    };
-    
-    return level(self.parent);
+    NSTimeInterval time = [self.finished timeIntervalSinceDate:self.started];
+    if (self.error) {
+        DDLogError(@"\n>Invocation finished\nmessage: %@\ntime:%.3fs\nerror: %@", self.message, time, self.error);
+    } else {
+        DDLogVerbose(@"\n>Invocation finished\nmessage: %@\ntime:%.3fs", self.message, time);
+    }
 }
 
 @end

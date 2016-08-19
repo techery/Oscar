@@ -3,10 +3,10 @@
 // Copyright (c) 2015 Techery. All rights reserved.
 //
 
-#import "NSArray+Functional.h"
+#import "NSArray+Functional_Oscar.h"
 
 
-@implementation NSArray(Functional)
+@implementation NSArray(Functional_Oscar)
 
 - (NSArray *)map:(id (^)(id))mapBlock {
     NSMutableArray *result = [[NSMutableArray alloc] init];

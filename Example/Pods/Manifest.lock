@@ -1,21 +1,32 @@
 PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
   - Kiwi (2.4.0)
-  - Oscar (0.1):
+  - Oscar (1.0.1):
+    - CocoaLumberjack
     - RXPromise (~> 0.13)
   - RXPromise (0.13.1)
 
 DEPENDENCIES:
+  - CocoaLumberjack
   - Kiwi
   - Oscar (from `../`)
   - RXPromise (~> 0.13)
 
 EXTERNAL SOURCES:
   Oscar:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  Oscar: 2eee426d8e1f56ca721bab42df3dd73bf2b3323b
+  Oscar: de01dfbdc1ff2864b317027f2f1d081c9784aaca
   RXPromise: 1aaff7ad7ac17c7e8dd9ea0169d13ed8df3654d2
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

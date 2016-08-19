@@ -14,6 +14,6 @@
 - (id)serviceForProtocol:(Protocol *)protocol;
 
 - (void)registerService:(id)service;
-- (id)serviceForClass:(Class)class;
+- (id)serviceForClass:(Class)aClass;
 
 @end

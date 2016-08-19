@@ -6,17 +6,16 @@
 #import <Foundation/Foundation.h>
 
 @protocol OSActorProvider, OSConfigs;
-@class OSActorRef, OSActor, OSServiceLocator;
+@class OSActorRef, OSActor;
 @class OSMainActorSystem;
 @protocol OSSystemActor;
 
 
 @protocol OSActorSystem
 
-@property(nonatomic, readonly) OSServiceLocator *serviceLocator;
 @property (nonatomic, readonly) id<OSConfigs> configs;
 
-- (OSActorRef *)actorOfClass:(Class)class caller:(id)caller;
+- (OSActorRef *)actorOfClass:(Class)aClass caller:(id)caller;
 - (void)addActorProvider:(id<OSActorProvider>)actorProvider;
 
 @end
@@ -36,10 +35,8 @@
 
 @interface OSMainActorSystem : NSObject <OSActorSystem>
 
-@property(nonatomic, readonly) OSServiceLocator *serviceLocator;
 @property (nonatomic, readonly) id<OSConfigs> configs;
 
 - (instancetype)initWithConfigs:(id<OSConfigs>)configs
-                 serviceLocator:(OSServiceLocator *)serviceLocator
                    builderBlock:(void (^)(OSActorSystemBuilder *))builderBlock;
 @end

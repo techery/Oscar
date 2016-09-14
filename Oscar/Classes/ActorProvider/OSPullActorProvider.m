@@ -4,7 +4,6 @@
 //
 
 #import "OSPullActorProvider.h"
-#import "NSArray+Functional.h"
 #import "OSActor.h"
 #import "OSActorExecutor.h"
 
@@ -54,9 +53,14 @@
 #pragma mark - Private
 
 - (OSActorExecutor *)findFreeHandler {
-    return [[self.handlers filter:^BOOL(OSActorExecutor *handler) {
-        return handler.operationQueue.operationCount == 0;
-    }] firstObject];
+    OSActorExecutor *__block result = nil;
+    [self.handlers enumerateObjectsUsingBlock:^(OSActorExecutor *handler, NSUInteger idx, BOOL *stop) {
+        if (handler.operationQueue.operationCount == 0) {
+            result = handler;
+            *stop = YES;
+        }
+    }];
+    return result;
 }
 
 - (OSActorExecutor *)createNewHandler:(id<OSActorSystem>)actorSystem {

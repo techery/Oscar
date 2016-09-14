@@ -38,8 +38,6 @@
 		4D2E251C1D4268FA006CE9EE /* OSMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E24FA1D4268F9006CE9EE /* OSMessageHandler.m */; };
 		4D2E251D1D4268FA006CE9EE /* OSServiceLocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2E24FC1D4268F9006CE9EE /* OSServiceLocator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D2E251E1D4268FA006CE9EE /* OSServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E24FD1D4268F9006CE9EE /* OSServiceLocator.m */; };
-		4D2E251F1D4268FA006CE9EE /* NSArray+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2E24FF1D4268F9006CE9EE /* NSArray+Functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D2E25201D4268FA006CE9EE /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E25001D4268F9006CE9EE /* NSArray+Functional.m */; };
 		4DC00B821B862F7C0037BA74 /* OSActorExecutorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */; };
 		4DC00B831B862F7C0037BA74 /* OSActorOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */; };
 		4DC00B841B862F7C0037BA74 /* OSActorRefTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */; };
@@ -115,8 +113,6 @@
 		4D2E24FA1D4268F9006CE9EE /* OSMessageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSMessageHandler.m; sourceTree = "<group>"; };
 		4D2E24FC1D4268F9006CE9EE /* OSServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSServiceLocator.h; sourceTree = "<group>"; };
 		4D2E24FD1D4268F9006CE9EE /* OSServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSServiceLocator.m; sourceTree = "<group>"; };
-		4D2E24FF1D4268F9006CE9EE /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Functional.h"; sourceTree = "<group>"; };
-		4D2E25001D4268F9006CE9EE /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
 		4DC00B771B862F7C0037BA74 /* OSActorExecutorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorExecutorTest.m; sourceTree = "<group>"; };
 		4DC00B781B862F7C0037BA74 /* OSActorOperationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorOperationTest.m; sourceTree = "<group>"; };
 		4DC00B791B862F7C0037BA74 /* OSActorRefTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorRefTest.m; sourceTree = "<group>"; };
@@ -225,7 +221,6 @@
 				4D2E24F91D4268F9006CE9EE /* OSMessageHandler.h */,
 				4D2E24FA1D4268F9006CE9EE /* OSMessageHandler.m */,
 				4D2E24FB1D4268F9006CE9EE /* ServiceLocator */,
-				4D2E24FE1D4268F9006CE9EE /* Utils */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -251,15 +246,6 @@
 				4D2E24FD1D4268F9006CE9EE /* OSServiceLocator.m */,
 			);
 			path = ServiceLocator;
-			sourceTree = "<group>";
-		};
-		4D2E24FE1D4268F9006CE9EE /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				4D2E24FF1D4268F9006CE9EE /* NSArray+Functional.h */,
-				4D2E25001D4268F9006CE9EE /* NSArray+Functional.m */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		4DC00B8D1B8630B80037BA74 /* Promise Matcher */ = {
@@ -385,7 +371,6 @@
 				4D2E25131D4268FA006CE9EE /* OSActorSystem.h in Headers */,
 				4D2E251B1D4268FA006CE9EE /* OSMessageHandler.h in Headers */,
 				4D2E250E1D4268F9006CE9EE /* OSActorExecutor.h in Headers */,
-				4D2E251F1D4268FA006CE9EE /* NSArray+Functional.h in Headers */,
 				4D2E25021D4268F9006CE9EE /* OSActorProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,7 +571,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2E250D1D4268F9006CE9EE /* OSActorConstants.m in Sources */,
-				4D2E25201D4268FA006CE9EE /* NSArray+Functional.m in Sources */,
 				4D2E25111D4268F9006CE9EE /* OSActorOperation.m in Sources */,
 				4D2E25041D4268F9006CE9EE /* OSInstanceActorProvider.m in Sources */,
 				4D2E251E1D4268FA006CE9EE /* OSServiceLocator.m in Sources */,

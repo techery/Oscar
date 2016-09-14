@@ -23,12 +23,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Source/Classes/**/*'
-  s.resource_bundles = {
-    'Oscar' => ['Source/Assets/*.png']
-  }
+  s.source_files = 'Oscar/Classes/**/*'
 
-  s.public_header_files = 'Source/Classes/**/*.h'
+  s.public_header_files = 'Oscar/Classes/**/*.h'
   s.dependency 'RXPromise', '~> 1.0.3'
   s.dependency   'CocoaLumberjack'
 end

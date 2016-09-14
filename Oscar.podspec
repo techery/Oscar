@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Oscar"
-  s.version          = "0.1"
+  s.version          = "1.0.0"
   s.summary          = "Actor programming model framework"
 
   s.description      = "The actor model in computer science is a mathematical model of concurrent computation that treats \"actors\" as the universal primitives of concurrent computation: in response to a message that it receives, an actor can make local decisions, create more actors, send more messages, and determine how to respond to the next message received.(Wikipedia)"
@@ -20,14 +20,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/Techery/Oscar.git", :tag => s.version }
   s.social_media_url = 'http://techery.io'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Source/Classes/**/*'
   s.resource_bundles = {
-    'Oscar' => ['Pod/Assets/*.png']
+    'Oscar' => ['Source/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'RXPromise', '~> 0.13'
+  s.public_header_files = 'Source/Classes/**/*.h'
+  s.dependency 'RXPromise', '~> 1.0.3'
+  s.dependency   'CocoaLumberjack'
 end

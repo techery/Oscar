@@ -63,6 +63,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EB8669451DA6A74C0097176E /* OSCancellableActor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8669441DA6A74C0097176E /* OSCancellableActor.m */; };
+		EB8669471DA6A7540097176E /* OSActorFutureCancellationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8669461DA6A7540097176E /* OSActorFutureCancellationTest.m */; };
 		EF7C10BE1D4A3ED900ED0366 /* RXPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BC1D4A3ED900ED0366 /* RXPromise.framework */; };
 		EF7C10BF1D4A3ED900ED0366 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BD1D4A3ED900ED0366 /* CocoaLumberjack.framework */; };
 		EF7C10C01D4A3EDE00ED0366 /* RXPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C10BC1D4A3ED900ED0366 /* RXPromise.framework */; };
@@ -146,6 +148,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EB8669431DA6A74C0097176E /* OSCancellableActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCancellableActor.h; sourceTree = "<group>"; };
+		EB8669441DA6A74C0097176E /* OSCancellableActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCancellableActor.m; sourceTree = "<group>"; };
+		EB8669461DA6A7540097176E /* OSActorFutureCancellationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSActorFutureCancellationTest.m; sourceTree = "<group>"; };
 		EF7C10BC1D4A3ED900ED0366 /* RXPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RXPromise.framework; path = Carthage/Build/iOS/RXPromise.framework; sourceTree = "<group>"; };
 		EF7C10BD1D4A3ED900ED0366 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -320,6 +325,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				EB8669421DA6A74C0097176E /* OSCancellableActor */,
+				EB8669461DA6A7540097176E /* OSActorFutureCancellationTest.m */,
 				4DC00B911B8630D90037BA74 /* OSActorSystemMock.h */,
 				4DC00B921B8630D90037BA74 /* OSActorSystemMock.m */,
 				4DC00B8D1B8630B80037BA74 /* Promise Matcher */,
@@ -346,6 +353,15 @@
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8669421DA6A74C0097176E /* OSCancellableActor */ = {
+			isa = PBXGroup;
+			children = (
+				EB8669431DA6A74C0097176E /* OSCancellableActor.h */,
+				EB8669441DA6A74C0097176E /* OSCancellableActor.m */,
+			);
+			path = OSCancellableActor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -590,8 +606,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8669451DA6A74C0097176E /* OSCancellableActor.m in Sources */,
 				6003F59E195388D20070C39A /* OSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* OSViewController.m in Sources */,
+				EB8669471DA6A7540097176E /* OSActorFutureCancellationTest.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
